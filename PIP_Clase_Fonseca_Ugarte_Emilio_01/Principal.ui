@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>478</width>
+    <height>285</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">alternate-background-color: rgb(0, 159, 183);</string>
+  </property>
+  <widget class="QWidget" name="Principal">
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 159, 183);</string>
+   </property>
+   <widget class="QPushButton" name="btn_Ano">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(254, 215, 102);
+	border-radius: 15px;
+	
+}
+QPushButton:hover{
+	border:3px  solid rgb(254, 215, 102);
+	background-color: rgb(254, 74, 73);
+}</string>
+    </property>
+    <property name="text">
+     <string>Año Bisiesto</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_CtoF">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>90</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(254, 215, 102);
+	border-radius:15px;
+	
+}
+QPushButton:hover{
+	border:3px  solid rgb(254, 215, 102);
+	background-color: rgb(254, 74, 73);
+}</string>
+    </property>
+    <property name="text">
+     <string>C° to F°</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Factorial">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>30</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(254, 215, 102);
+	border-radius:15px;
+	
+}
+QPushButton:hover{
+	border:3px  solid rgb(254, 215, 102);
+	background-color: rgb(254, 74, 73);
+}</string>
+    </property>
+    <property name="text">
+     <string>Factorial</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Fibonacci">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>90</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(254, 215, 102);
+	border-radius:15px;
+	
+}
+QPushButton:hover{
+	border:3px  solid rgb(254, 215, 102);
+	background-color: rgb(254, 74, 73);
+}</string>
+    </property>
+    <property name="text">
+     <string>Fibonacci</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Par">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>160</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(254, 215, 102);
+	border-radius:15px;
+	
+}
+QPushButton:hover{
+	border:3px  solid rgb(254, 215, 102);
+	background-color: rgb(254, 74, 73);
+}</string>
+    </property>
+    <property name="text">
+     <string>Num Par</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_formula">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>220</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(254, 215, 102);
+	border-radius:15px;
+	
+}
+QPushButton:hover{
+	border:3px  solid rgb(254, 215, 102);
+	background-color: rgb(254, 74, 73);
+}</string>
+    </property>
+    <property name="text">
+     <string>Formula general</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Potencia">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>220</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(254, 215, 102);
+	border-radius:15px;
+	
+}
+QPushButton:hover{
+	border:3px  solid rgb(254, 215, 102);
+	background-color: rgb(254, 74, 73);
+}</string>
+    </property>
+    <property name="text">
+     <string>Potencia</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_IMC">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>160</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(254, 215, 102);
+	border-radius:15px;
+	
+}
+QPushButton:hover{
+	border:3px  solid rgb(254, 215, 102);
+	background-color: rgb(254, 74, 73);
+}</string>
+    </property>
+    <property name="text">
+     <string>I.M.C</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Punt_medio">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>90</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(254, 215, 102);
+	border-radius:15px;
+	
+}
+QPushButton:hover{
+	border:3px  solid rgb(254, 215, 102);
+	background-color: rgb(254, 74, 73);
+}</string>
+    </property>
+    <property name="text">
+     <string>Punto medio</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Raiz">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>160</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(254, 215, 102);
+	border-radius:15px;
+	
+}
+QPushButton:hover{
+	border:3px  solid rgb(254, 215, 102);
+	background-color: rgb(254, 74, 73);
+}</string>
+    </property>
+    <property name="text">
+     <string>Raiz</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_AtoB">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>30</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(254, 215, 102);
+	border-radius:15px;
+	
+}
+QPushButton:hover{
+	border:3px  solid rgb(254, 215, 102);
+	background-color: rgb(254, 74, 73);
+}</string>
+    </property>
+    <property name="text">
+     <string>Punto A a B</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Potencia_2">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>220</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(254, 215, 102);
+	border-radius:15px;
+	
+}
+QPushButton:hover{
+	border:3px  solid rgb(254, 215, 102);
+	background-color: rgb(254, 74, 73);
+}</string>
+    </property>
+    <property name="text">
+     <string>Votar</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
